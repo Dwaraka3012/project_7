@@ -55,7 +55,7 @@ def main():
     if selected_date == target_date:
         st.success("The selected date is December 30! Suprise for you PLEASE CLICK THE BELOW LINK AND DOWNLOAD VIDEO")
       # Video file path
-        video_file_path = "F:\DR.mp4"  # Replace with the path to your video file
+        video_file_path = "DR.mp4"  # Replace with the path to your video file
 
         # Title
         st.title("Share a Video with the User")
@@ -109,7 +109,7 @@ def main():
                     st.write("Better luck next time!", emojize(":pensive_face:"))
 
     with col2:
-        st.image("F://website.png")
+        st.image("website.png")
 
     st.write("---")
     st.markdown(
