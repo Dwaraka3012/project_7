@@ -22,7 +22,7 @@ def ask_questions():
     st.subheader("Additional Questions")
 
     additional_questions = [
-        {"question": "Do you want to know how I introduce you to my MOM? (Play video)", "video": "https://www.youtube.com/embed/1-PTfDWk_u4"},
+        {"question": "Do you want to know how I introduce you to my MOM? CLICK ON YES (Play video)", "video": "https://www.youtube.com/embed/1-PTfDWk_u4"},
         {"question": "Do you want to know how I feel when you're not talking to me?", "video": "https://www.youtube.com/embed/vKbYFos88G0"},
         {"question": "Do you want to know how I feel every time I see you?", "video": "https://www.youtube.com/embed/EIcukYHB0iU"}
     ]
@@ -57,8 +57,7 @@ def main():
       # Video file path
         video_file_path = "DR.mp4"  # Replace with the path to your video file
 
-        # Title
-        st.title("Share a Video with the User")
+
         st.markdown(
     "<h3 style='color: red;'>BE CAREFUL WHILE PLAYING THE VIDEO IF YOU ARE AT HOME</h3>",
     unsafe_allow_html=True,
@@ -119,6 +118,10 @@ def main():
 
     st.write("----")
     ask_questions()
+
+st.markdown(
+    "<h3 style='color: blue;'>If your unable to answer any of these questions Try to reach to Developer  Mr.Dwaraka Reddy </h3>",
+    unsafe_allow_html=True,
 
 if __name__ == "__main__":
     main()
