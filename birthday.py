@@ -116,13 +116,15 @@ def main():
         f"<h1 style='text-align: center; color: green;'>You won points are: {st.session_state.score}</h1>",
         unsafe_allow_html=True
     )
+
+
+    st.write("----")
+    ask_questions()
+
     st.markdown(
     "<h6 style='color: blue;'>If your unable to answer any of these questions Try to reach to Developer  Mr.Dwaraka Reddy </h6>",
     unsafe_allow_html=True,
      )
-
-    st.write("----")
-    ask_questions()
 
 if __name__ == "__main__":
     main()
