@@ -109,6 +109,10 @@ def main():
 
     with col2:
         st.image("website.png")
+    st.markdown(
+    "<h3 style='color: blue;'>If your unable to answer any of these questions Try to reach to Developer  Mr.Dwaraka Reddy </h3>",
+    unsafe_allow_html=True,
+     )
 
     st.write("---")
     st.markdown(
@@ -119,9 +123,5 @@ def main():
     st.write("----")
     ask_questions()
 
-st.markdown(
-    "<h3 style='color: blue;'>If your unable to answer any of these questions Try to reach to Developer  Mr.Dwaraka Reddy </h3>",
-    unsafe_allow_html=True,
-)
 if __name__ == "__main__":
     main()
