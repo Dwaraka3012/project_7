@@ -93,7 +93,7 @@ def main():
     ask_questions()
 
         # Prompt user to select a date
-    selected_date = st.date_input("Please select a date:", min_value=date(2024, 1, 1))
+    selected_date = st.date_input("Please select Todays date:", min_value=date(2024, 1, 1))
 
     # Define the target date
     target_date = date(2024, 12, 30)
